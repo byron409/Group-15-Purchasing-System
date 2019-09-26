@@ -188,7 +188,7 @@ def quotationdetails(request):
                                          item_id = item_info, 
                                          total_price = item['total_price'],
                                          quantity = item['quantity'], 
-                                         ref_id = item['ref_id'],
+                                       #  ref_id = item['ref_id'],
                                          unit_price = item['unit_price'])
         quo_item_info.save()
 
